@@ -1,0 +1,32 @@
+html {
+  background-color: #e9c46a;
+}
+
+.stores-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.clothing-container,
+.food-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+.clothing-container {
+  background-color: #2a9d8f;
+}
+.food-container {
+  background-color: #e76f51;
+}
+
+.clothing-container:hover,
+.food-container:hover {
+  transform: scale(1.05);
+}

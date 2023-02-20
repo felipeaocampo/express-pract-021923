@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/clothing.css" />
+    <title>Marketplace</title>
+  </head>
+  <body>
+    <h1>Clothing store!</h1>
+    <ul>
+      <li>
+        <a class="clothing-item" href="/clothing/0"
+          >T-shirt: Price 24.99 &mdash; Quantity 10
+        </a>
+      </li>
+      <li>
+        <a class="clothing-item" href="/clothing/1"
+          >Skinny Jeans: Price 49.99 &mdash; Quantity 5
+        </a>
+      </li>
+      <li>
+        <a class="clothing-item" href="/clothing/2"
+          >Hoop Skirt: Price 20.99 &mdash; Quantity 8
+        </a>
+      </li>
+    </ul>
+    <section>
+      <form action="/clothing" method="POST">
+        <label for="newItem">Add new item: </label
+        ><input type="text" id="newItem" name="name" placeholder="Item name" />
+        <input type="text" id="newItem" name="price" placeholder="Item Price" />
+        <input
+          type="text"
+          id="newItem"
+          name="quantity"
+          placeholder="Item quantity"
+        />
+        <button class="create-new-btn">Create!</button>
+      </form>
+    </section>
+    <button><a href="/">Back to Home</a></button>
+  </body>
+</html>

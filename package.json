@@ -1,0 +1,23 @@
+{
+  "name": "express-pract-proj",
+  "version": "1.0.0",
+  "description": "express pract",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeaocampo/express-pract-021923.git"
+  },
+  "author": "Felipe Ocampo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeaocampo/express-pract-021923/issues"
+  },
+  "homepage": "https://github.com/felipeaocampo/express-pract-021923#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
