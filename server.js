@@ -20,7 +20,7 @@ app.get(`/`, (req, res) => {
   res.status(200).sendFile(path.resolve(`views`, "index.html"));
 });
 
-// 404, generic
+// 404, generic route catches all, will be "PAGE NOT FOUND"
 app.use((req, res) => {
   console.log(`Hello from the middleware`);
   res.status(404).sendFile(path.resolve(`views`, `404.html`));
